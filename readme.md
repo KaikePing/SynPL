@@ -229,9 +229,9 @@ nltk==3.6.3
 
 ## Model files
 
-- src/MultiOpt_CKO.py: Trainer for MultiOpt_CKO model.
-- src/MultiOpt_KO.py: Trainer for MultiOpt_KO model.
-- src/MultiOpt_KsOs.py: Trainer for MultiOpt_KsOs model.
-- src/MultiOpt_KO_PickVal.py: Trainer for MultiOpt_KO model but with test data for final comparison (others are train data).
-- src/Prompt_Uni.py: Trainer for Prompt_Uni model.
-- src/Prompt_Bi.py: Trainer for Prompt_Bi model.
+- [src/MultiOpt_CKO.py](src/MultiOpt_CKO.py): Trainer for MultiOpt_CKO model.
+- [src/MultiOpt_KO.py](src/MultiOpt_KO.py): Trainer for MultiOpt_KO model.
+- [src/MultiOpt_KsOs.py](src/MultiOpt_KsOs.py): Trainer for MultiOpt_KsOs model.
+- [src/MultiOpt_KO_PickVal.py](src/MultiOpt_KO_PickVal.py): Trainer for MultiOpt_KO model but with test data for final comparison (others are train data).
+- [src/Prompt_Uni.py](src/Prompt_Uni.py): Trainer for Prompt_Uni model.
+- [src/Prompt_Bi.py](src/Prompt_Bi.py): Trainer for Prompt_Bi model.
