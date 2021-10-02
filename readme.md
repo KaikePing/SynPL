@@ -15,7 +15,7 @@ Where:
 - **MultiOpt_KO** model is finetuned *AutoModelForMultipleChoice* pre-trained BERT model with `Keyword [SEP] Options` pattern as input
 - **PromptBi** model is the classic fill-mask model with prompt
 
-![Fig 1. Diagram of 3 input patterns](img/schematic.png)
+![Fig 1. Diagram of 3 input patterns](img/Schematic.png)
 
 And this is the final result of these 2 models. Where **"Raw BERT"** is un-finetuned *AutoModelForMultipleChoice* pre-trained BERT model.
 
