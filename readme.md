@@ -1,8 +1,8 @@
-# SynPL: a zero-shot language prompt model to process multiple-choice questions on synonyms
+# SynPL: a zero-shot prompt language model to process multiple-choice questions on synonyms
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KaikePing/SynPL/blob/main/src/Prompt_Bi.ipynb)
 
-- [SynPL: a zero-shot language prompt model to process multiple-choice questions on synonyms](#synpl-a-zero-shot-language-prompt-model-to-process-multiple-choice-questions-on-synonyms)
+- [SynPL: a zero-shot prompt language model to process multiple-choice questions on synonyms](#synpl-a-zero-shot-prompt-language-model-to-process-multiple-choice-questions-on-synonyms)
   - [Overview](#overview)
     - [Background](#background)
     - [Approaches](#approaches)
