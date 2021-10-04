@@ -1,6 +1,6 @@
 # SynPL: a zero-shot language prompt model to process multiple-choice questions on synonyms
 
-![Transformers](https://img.shields.io/badge/%F0%9F%A4%97%20TRANSFORMERS-4.10.1-blue)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KaikePing/SynPL/blob/main/src/Prompt_Bi.ipynb)
 
 - [SynPL: a zero-shot language prompt model to process multiple-choice questions on synonyms](#synpl-a-zero-shot-language-prompt-model-to-process-multiple-choice-questions-on-synonyms)
   - [Overview](#overview)
@@ -61,7 +61,7 @@ The second is to build a prompt for the classic fill-mask model, so that this mu
 
 ![Fig 2. Final result of 2 models](img/Accuracy_Final_Models.png)
 
-**Fig 2.** Final result of 2 models
+**Fig 2.** The Final result of the 2 models
 
 ### Findings
 
@@ -71,16 +71,16 @@ The second is to build a prompt for the classic fill-mask model, so that this mu
 
 ## Datasets
 
-Two Datasets used in this project.
+Two Datasets are used in this project.
 
-- A total of 454 synonym multiple-choice questions from TOEFL® test
+- A total of 454 synonym multiple-choice questions from the TOEFL® test
 - [WordNet](https://www.nltk.org/howto/wordnet.html)
 
-Due to copyright issue, I can't share the TOEFL® test dataset here.
+Due to copyright issues, I can't share the TOEFL® test dataset here.
 
 ## Question structure
 
-A typical example of synonym multiple-choice questions from TOEFL® test would be like this:
+A typical example of synonym multiple-choice questions from the TOEFL® test would be like this:
 
 > 45\. Coincident with concerns about the accelerating loss of species and habitats has been a growing **appreciation** of the importance of biological diversity, the number of species in a particular ecosystem, to the health of the Earth and human well-being.  
 >
@@ -165,7 +165,7 @@ For example, if you get a text classification problem to grade a movie review "T
 
 **Fig 5.** A typical example of using a prompt
 
-You can read [Gao's post](https://thegradient.pub/prompting/) for more infomation.
+You can read [Gao's post](https://thegradient.pub/prompting/) for more information.
 
 ### Prompt idea
 
@@ -243,7 +243,7 @@ Below are some other metrics.
 
 ## MultiOpt VS Prompt
 
-Finally, let's see how those two kinds of perform on the TOEFL® dataset.
+Finally, let's see how those two kinds perform on the TOEFL® dataset.
 
 We select 3 models to compare.
 
@@ -255,7 +255,7 @@ These models all use the same test data, which means data where all phrases alon
 
 ### Results
 
-[Table 3](#tab3) and [Figure 2](#fig2) shows how these models perform on the TOEFL® dataset.
+[Table 3](#tab3) and [Figure 2](#fig2) show how these models perform on the TOEFL® dataset.
 
 <i id="tab3"></i>
 
@@ -283,3 +283,4 @@ nltk==3.6.3
 - [src/MultiOpt_KO_PickVal.py](src/MultiOpt_KO_PickVal.py): Trainer for MultiOpt_KO model but with test data for final comparison (others are train data).
 - [src/Prompt_Uni.py](src/Prompt_Uni.py): Trainer for Prompt_Uni model.
 - [src/Prompt_Bi.py](src/Prompt_Bi.py): Trainer for Prompt_Bi model.
+- [src/Prompt_Bi.ipynb](src/Prompt_Bi.ipynb): Notebook for a example of training the Prompt_Bi model. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KaikePing/SynPL/blob/main/src/Prompt_Bi.ipynb)
