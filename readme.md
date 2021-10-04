@@ -188,6 +188,7 @@ We still need to finetune the model with this prompt, because we should let the 
 **Fig 6.** An example of before and after finetuning.
 *Here you can see after finetuning, its output words are more like synonyms.*
 
+<i id="accuracy"></i>
 ### Definition of accuracy
 
 I re-defined the definition of accuracy during this finetuning. Since many words have different meanings and each meaning can have multiple synonyms, so I gathered all synonyms of one word as a list. as long as any of top N (N=1, 2, 3, 5, 10) words predicted by the model falls into this list, I count it as **one** successful prediction.
@@ -220,7 +221,7 @@ In conclusion, there are 3 models in this part.
 
 ![Fig 7. Accuracy of prompt models](img/Accuracy_prompt.png)
 
-**Fig 7.** Accuracy of prompt models
+**Fig 7.** Accuracy of prompt models. *Check definition of accuracy [here](#accuracy).*
 
 Below are some other metrics.
 | Model      |    N | Recall |     F1 |
